@@ -36,3 +36,9 @@ echo \*\*\* Plotting distributions... \*\*\*
 sleep 2
 python3 scripts/visualize/plot_distributions.py $conf_json
 echo \*\*\* Distribution plotted. \*\*\*
+sleep 2
+
+echo \*\*\* Validating transaction subgraphs... \*\*\*
+sleep 2
+python3 scripts/validation/validate_alerts.py $conf_json
+echo \*\*\* Transaction subgraphs validated. \*\*\*
