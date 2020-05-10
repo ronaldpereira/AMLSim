@@ -2,12 +2,6 @@
 
 conf_json=$1
 
-echo \*\*\* Cleaning logs... \*\*\*
-sleep 2
-bash scripts/clean_logs.sh
-echo \*\*\* Logs cleaned. \*\*\*
-sleep 2
-
 echo \*\*\* Generating transaction graph... \*\*\*
 sleep 2
 python3 scripts/transaction_graph_generator.py $conf_json
