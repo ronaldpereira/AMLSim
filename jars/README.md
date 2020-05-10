@@ -1,4 +1,5 @@
 # External jar files
+
 Please download external jar files (except `paysim.jar`) from the following sites and put them just under this directory.
 
 
@@ -17,7 +18,7 @@ Please download external jar files (except `paysim.jar`) from the following site
   - The latest jar file is available from [here](https://github.com/stleary/JSON-java)
 - [WebGraph](http://webgraph.di.unimi.it/) version 3.6.1
   - Please download "binary tarball" from the homepage and extract the jar file.
-  - It is convenient to download "dependencies tarball" for the following dependencies. 
+  - It is convenient to download "dependencies tarball" for the following dependencies.
     - [DSI Utilities](http://dsiutils.di.unimi.it/) version 2.5.4
     - [fastutil](http://fastutil.di.unimi.it/) version 8.2.3
     - [Sux for Java](http://sux.di.unimi.it/) version 4.2.0
