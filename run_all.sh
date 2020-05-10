@@ -10,7 +10,7 @@ sleep 2
 
 echo \*\*\* Generating transaction graph... \*\*\*
 sleep 2
-python scripts/transaction_graph_generator.py $conf_json
+python3 scripts/transaction_graph_generator.py $conf_json
 echo \*\*\* Transaction graph successfully generated. \*\*\*
 sleep 2
 
