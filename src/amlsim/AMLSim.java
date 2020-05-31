@@ -376,13 +376,12 @@ public class AMLSim extends ParameterizedPaySim {
 		this.paramFile = new ArrayList<>();
 
 		// TODO: Load actions (transaction types) from the parameter file
-        this.actions.add("TRANSFER");
-//		this.actions.add("CASH_IN");
-//		this.actions.add("CASH_OUT");
-//		this.actions.add("DEBIT");
-//		this.actions.add("DEPOSIT");
-//		this.actions.add("PAYMENT");
-//		this.actions.add("TRANSFER");
+		this.actions.add("CASH_IN");
+		this.actions.add("CASH_OUT");
+		this.actions.add("DEBIT");
+		this.actions.add("DEPOSIT");
+		this.actions.add("PAYMENT");
+		this.actions.add("TRANSFER");
 	}
 
 
