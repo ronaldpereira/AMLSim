@@ -1,15 +1,15 @@
 {
     "general": {
         "random_seed": 0,
-        "simulation_name": "1K",
-        "total_steps": 720,
-        "base_date": "2017-01-01"
+        "simulation_name": "100-3",
+        "total_steps": 31,
+        "base_date": "2020-03-01"
     },
     "default": {
         "min_amount": 100,
-        "max_amount": 1000,
-        "min_balance": 50000,
-        "max_balance": 100000,
+        "max_amount": 500,
+        "min_balance": 200,
+        "max_balance": 5000,
         "start_step": -1,
         "end_step": -1,
         "start_range": -1,
@@ -18,24 +18,24 @@
         "margin_ratio": 0.1,
         "bank_id": "default",
         "cash_in": {
-            "normal_interval": 100,
-            "fraud_interval": 50,
-            "normal_min_amount": 50,
-            "normal_max_amount": 100,
-            "fraud_min_amount": 500,
-            "fraud_max_amount": 1000
+            "normal_interval": 210,
+            "fraud_interval": 180,
+            "normal_min_amount": 500,
+            "normal_max_amount": 800,
+            "fraud_min_amount": 600,
+            "fraud_max_amount": 1400
         },
         "cash_out": {
-            "normal_interval": 10,
-            "fraud_interval": 100,
-            "normal_min_amount": 10,
-            "normal_max_amount": 100,
-            "fraud_min_amount": 1000,
-            "fraud_max_amount": 2000
+            "normal_interval": 30,
+            "fraud_interval": 50,
+            "normal_min_amount": 200,
+            "normal_max_amount": 700,
+            "fraud_min_amount": 600,
+            "fraud_max_amount": 900
         }
     },
     "input": {
-        "directory": "paramFiles/1K",
+        "directory": "paramFiles/100",
         "schema": "schema.json",
         "accounts": "accounts.csv",
         "alert_patterns": "alertPatterns.csv",

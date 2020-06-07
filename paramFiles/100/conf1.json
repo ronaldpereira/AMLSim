@@ -1,9 +1,9 @@
 {
     "general": {
         "random_seed": 0,
-        "simulation_name": "1K",
-        "total_steps": 720,
-        "base_date": "2017-01-01"
+        "simulation_name": "100-1",
+        "total_steps": 31,
+        "base_date": "2020-01-01"
     },
     "default": {
         "min_amount": 100,
@@ -35,7 +35,7 @@
         }
     },
     "input": {
-        "directory": "paramFiles/1K",
+        "directory": "paramFiles/100",
         "schema": "schema.json",
         "accounts": "accounts.csv",
         "alert_patterns": "alertPatterns.csv",
