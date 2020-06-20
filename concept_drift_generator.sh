@@ -6,5 +6,5 @@ mkdir -p outputs/concept_drift
 touch outputs/concept_drift/transactions.csv
 
 cat outputs/concept_drift-01-04/transactions.csv > outputs/concept_drift/transactions.csv
-cat outputs/concept_drift-05-08/transactions.csv >> outputs/concept_drift/transactions.csv
-cat outputs/concept_drift-09-12/transactions.csv >> outputs/concept_drift/transactions.csv
+tail -n +2 outputs/concept_drift-05-08/transactions.csv >> outputs/concept_drift/transactions.csv
+tail -n +2 outputs/concept_drift-09-12/transactions.csv >> outputs/concept_drift/transactions.csv
