@@ -1,7 +1,7 @@
 {
     "general": {
         "random_seed": 0,
-        "simulation_name": "100-1",
+        "simulation_name": "100",
         "total_steps": 31,
         "base_date": "2021-01-01"
     },
